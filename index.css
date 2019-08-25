@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+}
+
+h2 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.page {
+    width: 100%;
+    min-height: 100%;
+}
+
+.cover-page {
+    position: relative;
+    overflow: hidden;
+}
+
+.cover-bg {
+    display: block;
+    max-width: 1600px;
+    height: 100%;
+    margin: auto;
+}
+
+.cover-logo {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 70%;
+    max-width: 600px;
+}
+
+.cover-button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.page-outer-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.page-inner-center {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 700px;
+    padding: 60px;
+    margin: auto;
+    color: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.content-heading {
+    text-transform: uppercase;
+}
+
+.about-content {
+    line-height: 1.8;
+}
+
+.mag-link {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+}
+
+.mag-img {
+    width: 100%;
+}
+
+.mag-title-text {
+    font-style: italic;
+}
+
+.ig-logo-link {
+    display: block;
+    margin: auto;
+}
+
+.ig-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url(./assets/instagram-logo.png) center center no-repeat;
+    background-size: contain;
+}
+
+.ig-button-container {
+    margin-top: 80px;
+}
+.subscribe-button-container {
+    margin-top: 40px;
+}
+.subscribe-button {
+    --mdc-theme-primary: #000;
+}
+.subscribe-field-spacer {
+    margin: 20px 0;
+}
+.subscribe-dialog {
+    --mdc-theme-primary: #000;
+}
