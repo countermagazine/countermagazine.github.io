@@ -1,9 +1,3 @@
-# [My Website](https://kiahnjl.github.io)
+# [Website](https://countermagazine.com.au)
 
-## Goals
-
-- Showcase my projects
-- Demonstrate UI/UX design
-- Link to LinkedIn, Resume, freelance etc
-- About me/Contact
-- Blog/notes/helpful material
+## Repo for Counter Magazine's holding page
